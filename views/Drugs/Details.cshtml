@@ -1,0 +1,9 @@
+@model PharmaceuticalBillingProject.Models.Drug
+<h1>Drug Details</h1>
+<p><strong>DrugID:</strong> @Model.DrugID</p>
+<p><strong>Drug Name:</strong> @Model.DrugName</p>
+<p><strong>Dose:</strong> @Model.Dose</p>
+<p><strong>Unit Cost:</strong> @Model.UnitCost</p>
+<a asp-action="Edit" asp-route-DrugID="@Model.DrugID">Edit</a> |
+<a asp-action="Delete" asp-route-DrugID="@Model.DrugID">Delete</a> |
+<a asp-action="Index">Back to List</a>

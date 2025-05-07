@@ -1,0 +1,12 @@
+@model PharmaceuticalBillingProject.Models.Drug
+<h1>Delete Drug</h1>
+<p>Are you sure you want to delete this?</p>
+<p><strong>DrugID:</strong> @Model.DrugID</p>
+<p><strong>Drug Name:</strong> @Model.DrugName</p>
+<p><strong>Dose:</strong> @Model.Dose</p>
+<p><strong>Unit Cost:</strong> @Model.UnitCost</p>
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="DrugID" />
+    <button type="submit">Delete</button>
+</form>
+<a asp-action="Index">Back to List</a>

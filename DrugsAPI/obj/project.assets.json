@@ -81,11 +81,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jmlap\\Documents\\USF_AIBA_PC\\Spring_2025\\App_Dev\\GIT_Hub_repositories\\DrugPriceAPI\\DrugsAPI\\DrugsAPI.csproj",
+      "projectUniqueName": "C:\\Users\\jmlap\\Documents\\USF_AIBA_PC\\Spring_2025\\App_Dev\\GIT_Hub_repositories\\DrugPriceAPI\\DrugPriceAPI\\DrugsAPI\\DrugsAPI.csproj",
       "projectName": "DrugsAPI",
-      "projectPath": "C:\\Users\\jmlap\\Documents\\USF_AIBA_PC\\Spring_2025\\App_Dev\\GIT_Hub_repositories\\DrugPriceAPI\\DrugsAPI\\DrugsAPI.csproj",
+      "projectPath": "C:\\Users\\jmlap\\Documents\\USF_AIBA_PC\\Spring_2025\\App_Dev\\GIT_Hub_repositories\\DrugPriceAPI\\DrugPriceAPI\\DrugsAPI\\DrugsAPI.csproj",
       "packagesPath": "C:\\Users\\jmlap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jmlap\\Documents\\USF_AIBA_PC\\Spring_2025\\App_Dev\\GIT_Hub_repositories\\DrugPriceAPI\\DrugsAPI\\obj\\",
+      "outputPath": "C:\\Users\\jmlap\\Documents\\USF_AIBA_PC\\Spring_2025\\App_Dev\\GIT_Hub_repositories\\DrugPriceAPI\\DrugPriceAPI\\DrugsAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
