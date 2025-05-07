@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/DrugsAPI/style.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Du\u002Byu6sfq/BgJfef5exji5A2zHKD4TmuunqK4pRS8C4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1830"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Du\u002Byu6sfq/BgJfef5exji5A2zHKD4TmuunqK4pRS8C4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 16:18:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DrugsAPI/style.mqdmkf13xm.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mqdmkf13xm"},{"Name":"integrity","Value":"sha256-Du\u002Byu6sfq/BgJfef5exji5A2zHKD4TmuunqK4pRS8C4="},{"Name":"label","Value":"_content/DrugsAPI/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1830"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Du\u002Byu6sfq/BgJfef5exji5A2zHKD4TmuunqK4pRS8C4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 16:18:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

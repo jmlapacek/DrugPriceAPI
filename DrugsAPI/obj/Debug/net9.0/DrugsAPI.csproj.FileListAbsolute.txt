@@ -1,5 +1,6 @@
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\bin\Debug\net9.0\appsettings.json
+C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\bin\Debug\net9.0\DrugsAPI.staticwebassets.runtime.json
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\bin\Debug\net9.0\DrugsAPI.staticwebassets.endpoints.json
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\bin\Debug\net9.0\DrugsAPI.exe
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\bin\Debug\net9.0\DrugsAPI.deps.json
@@ -8,6 +9,7 @@ C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\Dr
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\bin\Debug\net9.0\DrugsAPI.pdb
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\obj\Debug\net9.0\DrugsAPI.csproj.AssemblyReference.cache
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\obj\Debug\net9.0\DrugsAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\obj\Debug\net9.0\DrugsAPI.AssemblyInfoInputs.cache
@@ -17,6 +19,7 @@ C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\Dr
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\obj\Debug\net9.0\DrugsAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\obj\Debug\net9.0\DrugsAPI.sourcelink.json
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\obj\Debug\net9.0\scopedcss\bundle\DrugsAPI.styles.css
+C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\obj\Debug\net9.0\compressed\bbq61twbbx-mqdmkf13xm.gz
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\obj\Debug\net9.0\staticwebassets.build.endpoints.json

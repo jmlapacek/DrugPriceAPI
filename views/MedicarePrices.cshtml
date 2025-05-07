@@ -1,0 +1,47 @@
+@model List<MedicareDrugPrice>
+
+<h1>Medicare Drug Prices</h1>
+<p>Official Medicare Part B Drug Prices</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Drug Name</th>
+            <th>Average Price</th>
+            <th>Manufacturer</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var price in Model)
+        {
+            <tr>
+                <td>@price.DrugName</td>
+                <td>$@price.AveragePrice</td>
+                <td>@price.Manufacturer</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    h1 {
+        color: #004080;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    th {
+        background-color: #004080;
+        color: white;
+    }
+</style>

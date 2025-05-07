@@ -1,0 +1,89 @@
+@{
+    ViewData["Title"] = "Data Visualization - Jahemlit Enterprises";
+}
+
+<h1>Drug Price Data Visualization</h1>
+<p>Visual representation of spending on medications and price trends.</p>
+
+<section>
+    <h2>Percentage of Spending by Medication</h2>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+</section>
+
+<section>
+    <h2>Increase in Medication Cost Over Time</h2>
+    <canvas id="lineChart" width="600" height="400"></canvas>
+</section>
+
+<section>
+    <h2>Total Cost Comparison of Medications</h2>
+    <canvas id="barChart" width="600" height="400"></canvas>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Dummy data for demonstration
+    const drugNames = ["Aspirin", "Ibuprofen", "Paracetamol"];
+    const drugCosts = [599, 799, 1099]; // in cents for easy calculation
+    const costIncrease = [599, 650, 700, 750, 799, 850, 1099];
+
+    // Pie Chart
+    const pieCtx = document.getElementById("pieChart").getContext("2d");
+    new Chart(pieCtx, {
+        type: "pie",
+        data: {
+            labels: drugNames,
+            datasets: [{
+                label: "Spending by Medication",
+                data: drugCosts,
+                backgroundColor: ["#ff6384", "#36a2eb", "#ffce56"]
+            }]
+        }
+    });
+
+    // Line Chart
+    const lineCtx = document.getElementById("lineChart").getContext("2d");
+    new Chart(lineCtx, {
+        type: "line",
+        data: {
+            labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+            datasets: [{
+                label: "Price Increase Over Time",
+                data: costIncrease,
+                fill: false,
+                borderColor: "#4bc0c0",
+                tension: 0.1
+            }]
+        }
+    });
+
+    // Bar Chart
+    const barCtx = document.getElementById("barChart").getContext("2d");
+    new Chart(barCtx, {
+        type: "bar",
+        data: {
+            labels: drugNames,
+            datasets: [{
+                label: "Total Cost per Medication",
+                data: drugCosts,
+                backgroundColor: ["#ff6384", "#36a2eb", "#ffce56"]
+            }]
+        }
+    });
+</script>
+
+<style>
+    h1, h2 {
+        color: #004080;
+        margin-bottom: 10px;
+    }
+
+    section {
+        margin-bottom: 30px;
+    }
+
+    canvas {
+        display: block;
+        margin: 0 auto;
+    }
+</style>

@@ -1,18 +1,51 @@
-@model PharmaceuticalBillingProject.Models.Drug
-<h1>Create Drug</h1>
-<form asp-action="Create" method="post">
-    <div>
-        <label>Drug Name</label>
-        <input asp-for="DrugName" />
-    </div>
-    <div>
-        <label>Dose</label>
-        <input asp-for="Dose" />
-    </div>
-    <div>
-        <label>Unit Cost</label>
-        <input asp-for="UnitCost" type="number" step="0.01" />
-    </div>
-    <button type="submit">Save</button>
-</form>
-<a asp-action="Index">Back to List</a>
+@{
+    ViewData["Title"] = "Drugs - Jahemlit Enterprises";
+}
+
+<h1>Manage Drugs</h1>
+
+<section>
+    <h2>Add a New Drug</h2>
+    <form asp-action="Add" method="post" class="drug-form">
+        <input type="text" name="DrugName" placeholder="Drug Name" required />
+        <input type="text" name="Description" placeholder="Description" required />
+        <input type="number" step="0.01" name="Price" placeholder="Price" required />
+        <button type="submit">Add Drug</button>
+    </form>
+</section>
+
+<section>
+    <h2>All Drugs</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var drug in Model)
+            {
+                <tr>
+                    <td>@drug.DrugName</td>
+                    <td>@drug.Description</td>
+                    <td>$@drug.Price</td>
+                    <td>
+                        <form asp-action="Delete" method="post" class="inline-form">
+                            <input type="hidden" name="id" value="@drug.DrugID" />
+                            <button type="submit" class="delete-button">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>
+
+<style>
+    .drug-form {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20

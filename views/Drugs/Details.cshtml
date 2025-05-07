@@ -1,9 +1,64 @@
-@model PharmaceuticalBillingProject.Models.Drug
+@model Drug
+
 <h1>Drug Details</h1>
-<p><strong>DrugID:</strong> @Model.DrugID</p>
-<p><strong>Drug Name:</strong> @Model.DrugName</p>
-<p><strong>Dose:</strong> @Model.Dose</p>
-<p><strong>Unit Cost:</strong> @Model.UnitCost</p>
-<a asp-action="Edit" asp-route-DrugID="@Model.DrugID">Edit</a> |
-<a asp-action="Delete" asp-route-DrugID="@Model.DrugID">Delete</a> |
-<a asp-action="Index">Back to List</a>
+<div class="details-container">
+    <p><strong>Drug ID:</strong> @Model.DrugID</p>
+    <p><strong>Drug Name:</strong> @Model.DrugName</p>
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Price:</strong> $@Model.Price</p>
+</div>
+
+<div class="details-actions">
+    <a asp-action="Delete" asp-route-id="@Model.DrugID" class="delete-button">Delete</a>
+    <a asp-action="Index" class="back-button">Back to List</a>
+</div>
+
+<style>
+    h1 {
+        color: #004080;
+        margin-bottom: 15px;
+    }
+
+    .details-container {
+        background-color: #f9f9f9;
+        padding: 15px;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+
+    .details-container p {
+        margin: 8px 0;
+    }
+
+    .details-actions {
+        display: flex;
+        gap: 10px;
+    }
+
+    .delete-button {
+        background-color: #e74c3c;
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .delete-button:hover {
+        background-color: #c0392b;
+    }
+
+    .back-button {
+        background-color: #008cba;
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .back-button:hover {
+        background-color: #005f5f;
+    }
+</style>

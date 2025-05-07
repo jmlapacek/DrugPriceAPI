@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ActiveDebugProfile>https</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\jmlap\Documents\USF_AIBA_PC\Spring_2025\App_Dev\GIT_Hub_repositories\DrugPriceAPI\DrugPriceAPI\DrugsAPI\Properties\PublishProfiles\DrugsAPI20250507161410 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+  </PropertyGroup>
+</Project>

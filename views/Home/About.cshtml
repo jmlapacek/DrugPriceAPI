@@ -1,0 +1,60 @@
+@{
+    ViewData["Title"] = "About - Jahemlit Enterprises";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+<header>
+    <h1>Jahemlit Enterprises</h1>
+    <nav>
+        <ul>
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a asp-controller="Home" asp-action="About">About</a></li>
+            <li><a asp-controller="Home" asp-action="DataVisualization">Data Visualization</a></li>
+            <li><a asp-controller="Drugs" asp-action="Index">Drugs</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>About Jahemlit</h2>
+        <p>Jahemlit is a group of University of South Florida students passionate about data and committed to improving decisions in healthcare organizations through clear and dependable data intelligence.</p>
+
+        <h3>Team Members</h3>
+        <div class="team">
+            <img src="~/img/Jackie.jpeg" alt="Jackie Lapacek" width="150" />
+            <p><strong>Jackie Lapacek</strong> – Front End Developer</p>
+
+            <img src="~/img/Hemu.jpg" alt="Hemu Davarapalli" width="150" />
+            <p><strong>Hemu Davarapalli</strong> – Back End Developer</p>
+
+            <img src="~/img/Lalith.png" alt="Lalith Kondapalli" width="150" />
+            <p><strong>Lalith Kondapalli</strong> – Full Stack Developer</p>
+        </div>
+
+        <h3>GitHub Repository</h3>
+        <p>
+            You can find the full source code on GitHub:  
+            <a href="https://github.com/jmlapacek/Hospital_Billing_Project.git" target="_blank">
+                https://github.com/jmlapacek/Hospital_Billing_Project.git
+            </a>
+        </p>
+
+        <h3>Logical Data Model</h3>
+        <img src="~/img/Hospital_Logical_Model.png" alt="Logical Data Model" width="600" />
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Jahemlit Enterprises. All rights reserved.</p>
+</footer>
+</body>
+</html>

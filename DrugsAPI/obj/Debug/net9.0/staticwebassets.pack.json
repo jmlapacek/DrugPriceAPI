@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jmlap\\Documents\\USF_AIBA_PC\\Spring_2025\\App_Dev\\GIT_Hub_repositories\\DrugPriceAPI\\DrugPriceAPI\\DrugsAPI\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.DrugsAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.DrugsAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.DrugsAPI.props",
+      "PackagePath": "build\\DrugsAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.DrugsAPI.props",
+      "PackagePath": "buildMultiTargeting\\DrugsAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.DrugsAPI.props",
+      "PackagePath": "buildTransitive\\DrugsAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

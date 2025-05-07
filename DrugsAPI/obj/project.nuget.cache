@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EsyyWTWxAEA=",
+  "dgSpecHash": "f58B9t6URxo=",
   "success": true,
   "projectFilePath": "C:\\Users\\jmlap\\Documents\\USF_AIBA_PC\\Spring_2025\\App_Dev\\GIT_Hub_repositories\\DrugPriceAPI\\DrugPriceAPI\\DrugsAPI\\DrugsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jmlap\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.2\\microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
-    "C:\\Users\\jmlap\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "C:\\Users\\jmlap\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\jmlap\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
